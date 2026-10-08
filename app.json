@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Money Intelligence",
+    "slug": "cibc-money-intelligence",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#A61E40"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "Money Intelligence (concept)"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "scheme": "moneyintelligence",
+    "description": "Unofficial concept prototype of a Money Outlook feature inside a CIBC-style mobile banking app. Demo data only."
+  }
+}
